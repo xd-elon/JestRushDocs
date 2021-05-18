@@ -19,4 +19,19 @@ mas as vezes não deseja tratalos de forma diferente. Jest contém ajudantes que
 | `toBeUndefined` | `undefined ` |
 | `toBeDefined` | é o oposto de `toBeUndefined` |
 | `toBeTruthy` | declarações de `if` que o if trate como verdadeira |
-| `toBeFalse` | declarações de `if` que o if trate como verdadeira |
+| `toBeFalse` | declarações de `if` que o if trate como falsa |
+
+
+# Numbers
+
+Para igualdade de ponto flutuante, use em `toBeCloseTo` em vez de to `toEqual` porque voçẽ não quer que um teste dependa de um pequeno arredondamento
+
+| sintax | esperado |
+| --- | --- |
+|`toBeGreaterThan`| maior que parametro passado 3|
+|`toBeGreaterThanOrEqual`| >= que parametro passado 3.5|
+|`toBeLessThan`| menor que parametro passado 5|
+|`toBeLessThanOrEqual`| menor ou igual a parametro passado 4.5 |
+|`toBeCloseTo`| para igualdade de ponto flutuante |
+
+# Strings
