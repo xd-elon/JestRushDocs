@@ -16,3 +16,7 @@ mas as vezes não deseja tratalos de forma diferente. Jest contém ajudantes que
 | sintax | esperado |
 | --- | --- |
 | `toBeNull` | `null ` |
+| `toBeUndefined` | `undefined ` |
+| `toBeDefined` | é o oposto de `toBeUndefined` |
+| `toBeTruthy` | declarações de `if` que o if trate como verdadeira |
+| `toBeFalse` | declarações de `if` que o if trate como verdadeira |
