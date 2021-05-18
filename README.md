@@ -9,3 +9,10 @@ exceto chamar matcher para eles. neste codigo``` .toBe(4) ```é o matcher. ele r
 vocẽ tambem pode testar o oposto do matchers``` expect(a + b).not.toBe(0); ```
 
 # Truthiness
+
+Em testes, as vezes vocẽ precida distinguir entre ```undefined,  null```e ``` false```,
+mas as vezes não deseja tratalos de forma diferente. Jest contém ajudantes que permitem que voçê seja explicito sobre o que deseja.
+
+| sintax | esperado |
+| --- | --- |
+| `toBeNull` | `null ` |
